@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio Simples</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-grid">
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <h1><span class="accent">Renan Soriano</span></h1>
+          <p class="lead">
+            Estudo Sistemas de Informação na USP, sou entusiasta da área de ciber segurança
+            e atualmente trabalho com Data Analytics e tracking.
+          </p>
+          <div class="actions">
+            <a class="btn" href="#projetos">Ver projetos</a>
+            <a class="btn ghost" href="#contato">Falar comigo</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="avatar" aria-hidden="true"></div>
+          <ul class="hero-list">
+            <li><strong>Local:</strong> São Carlos, SP-Brasil</li>
+            <li><strong>Disponivel:</strong> Freelance / CLT</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre" class="section">
+        <div class="container">
+          <h2>Sobre mim</h2>
+          <p>
+            Sou uma pessoa curiosa, movido por resolver problemas de maneira simples
+            e entender como as coisas funcionam. Possuo uma bagagem diversa, meu primeiro curso foi na área de 
+            física biomolecular, meu curso atual é em sistemas de informação e trabalho na área de data analytics, mais especificamente
+            com tracking de usuários. Tenho interesse em artes, música, filmes, animes, calistenia, corrida, artes marciais, video-games, culinária, perfumaria... a lista é longa então vou parar por aqui.
+          </p>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section alt">
+        <div class="container">
+          <h2>Habilidades</h2>
+          <div class="skills-grid">
+            <div class="card">
+              <h3>Soft skills</h3>
+              <ul>
+                <li>Comunicacao clara</li>
+                <li>Colaboracao</li>
+                <li>Proatividade</li>
+                <li>Compartilhamento de conhecimento</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Tech skills</h3>
+              <ul>
+                <li>HTML, CSS, JavaScript, TypeScript</li>
+                <li>Git e GitHub</li>
+                <li>UI basica e responsiva</li>
+                <li>Consumo de APIs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="section">
+        <div class="container">
+          <h2>Projetos</h2>
+          <div class="projects-grid">
+            <!-- TODO: Atualizar projetos -->
+            <article class="card project">
+              <h3>Projeto 1</h3>
+              <p>Descricao.</p>
+              <a href="#" class="text-link">Ver detalhes</a>
+            </article>
+            <article class="card project">
+              <h3>Projeto 2</h3>
+              <p>Descricao.</p>
+              <a href="#" class="text-link">Ver detalhes</a>
+            </article>
+            <article class="card project">
+              <h3>Projeto 3</h3>
+              <p>Descricao.</p>
+              <a href="#" class="text-link">Ver detalhes</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="section alt">
+        <div class="container">
+          <h2>Contato</h2>
+          <p>Quer conversar sobre um projeto ou oportunidade?</p>
+          <div class="contact-card">
+            <p><strong>Email:</strong> teste@gmail.com</p> 
+            <!-- deixar com email falso para evitar spam no pessoal enquanto nao tenho um de contato especifico, medo de bots -->
+            <p><strong>LinkedIn:</strong> linkedin.com/in/renan-soriano</p>
+            <p><strong>GitHub:</strong> github.com/RenanSoriano</p>
+            <button id="copy-email" class="btn small">Copiar email</button>
+            <span id="copy-feedback" class="copy-feedback" role="status"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
